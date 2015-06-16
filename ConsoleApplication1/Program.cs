@@ -11,6 +11,9 @@ namespace Sudoku_Solver
     {
         static void Main(string[] args)
         {
+
+            Console.Title = "Sudoku Solver";
+
             while (true)
             {
                 Sudoku s;
@@ -338,13 +341,15 @@ namespace Sudoku_Solver
 
             while (row < 10)
             {
-                Console.WriteLine("Please Enter row " + row);
                 string input = "0";
                 int dummy;
+                Console.WriteLine("Please Enter row " + row);
                 input = Console.ReadLine();
+
                 while (input.Length != 9 || !int.TryParse(input, out dummy))
                 {
-                    Console.WriteLine("Please Enter eight numeric characters");
+                    Console.WriteLine(@"For each row, please enter eight numeric characters.
+Blank cells should be entered as a zero");
                     input = Console.ReadLine();
                 }
 

@@ -1,3 +1,10 @@
-Simple Sudoku solver that  solves Sudoku puzzles using backtracking.
+Simple Sudoku solver that  solves Sudoku puzzles using a backtracking algorithmn.
 
-Assumes that the initial grid is solvable.
+blob/master/README.md
+
+
+Example:
+![Alt text](https://github.com/TCAU/Sudoku-Solver/screenshot1?raw=true)
+
+Debug view:
+![Alt text](https://github.com/TCAU/Sudoku-Solver/screenshot2?raw=true)
