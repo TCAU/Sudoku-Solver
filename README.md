@@ -4,7 +4,7 @@ blob/master/README.md
 
 
 Example:
-![Alt text](https://github.com/TCAU/Sudoku-Solver/screenshot1?raw=true)
+![Alt text](https://github.com/TCAU/Sudoku-Solver/blob/master/screenshot1.png?raw=true)
 
 Debug view:
-![Alt text](https://github.com/TCAU/Sudoku-Solver/screenshot2?raw=true)
+![Alt text](https://github.com/TCAU/Sudoku-Solver/blob/master/screenshot2.png?raw=true)
